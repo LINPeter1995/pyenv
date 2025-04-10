@@ -1,6 +1,6 @@
 # pyenv下載與設置
 
-下載 pyenv-win
+#下載 pyenv-win
 
 https://github.com/pyenv-win/pyenv-win/releases
 
