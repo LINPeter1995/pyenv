@@ -1,9 +1,11 @@
 # pyenv下載與設置
 
 下載 pyenv-win
+
 https://github.com/pyenv-win/pyenv-win/releases
 
 終端機下這指令解壓縮
+
 Expand-Archive -Path "C:\Users\你的使用者名稱\Downloads\pyenv-win-3.1.1.zip" -DestinationPath "$env:USERPROFILE\.pyenv"
 
 檢查現有的環境變數：
