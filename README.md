@@ -14,6 +14,7 @@ Expand-Archive -Path "C:\Users\你的使用者名稱\Downloads\pyenv-win-3.1.1.z
 [System.Environment]::GetEnvironmentVariable("PATH", [System.EnvironmentVariableTarget]::User)
 
 4.設置環境變數：
+
 設定 PYENV 變數
 
 [System.Environment]::SetEnvironmentVariable("PYENV", "$env:USERPROFILE\.pyenv\pyenv-win-3.1.1\pyenv-win", [System.EnvironmentVariableTarget]::User)
