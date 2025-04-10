@@ -23,6 +23,7 @@ Expand-Archive -Path "C:\Users\你的使用者名稱\Downloads\pyenv-win-3.1.1.z
 [System.Environment]::SetEnvironmentVariable("PATH", "$env:USERPROFILE\.pyenv\pyenv-win-3.1.1\pyenv-win\bin;$env:USERPROFILE\.pyenv\pyenv-win-3.1.1\pyenv-win\shims;$env:PATH", [System.EnvironmentVariableTarget]::User)
 
 5.重啟 PowerShell 或 VS Code 終端機輸入
+
 pyenv --version
 
 
