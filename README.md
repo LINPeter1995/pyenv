@@ -27,4 +27,6 @@ Expand-Archive -Path "C:\Users\你的使用者名稱\Downloads\pyenv-win-3.1.1.z
 
 pyenv --version
 
+pyenv install 3.11.0b4
 
+pyenv global 3.11.0b4
