@@ -1,0 +1,40 @@
+卸載 pyenv-win
+
+rm -rf ~/.pyenv
+
+安裝 pyenv（Linux 版本）
+
+sudo apt update
+sudo apt install -y make build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm \
+libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev \
+liblzma-dev python3-openssl git
+
+安裝 pyenv
+
+curl https://pyenv.run | bash
+
+更新 .bashrc 或 .zshrc（根據你使用的 Shell）配置文件
+
+echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(pyenv init --path)"' >> ~/.bashrc
+echo 'eval "$(pyenv init -)"' >> ~/.bashrc
+
+然後，執行以下命令使變更生效
+
+source ~/.bashrc
+
+確認 pyenv 是否安裝成功
+
+pyenv --version
+
+安裝和使用 Python 版本
+
+pyenv install 3.11.0
+pyenv global 3.11.0
+
+
+
+
+
+
