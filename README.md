@@ -4,7 +4,7 @@
 
 https://github.com/pyenv-win/pyenv-win/releases
 
-2.在終端機下這指令可將壓縮檔解壓縮到使用者目錄的 .pyenv 資料夾中📁(以系統管理員的身分進入)
+2.在終端機下這指令可將壓縮檔解壓縮到使用者目錄的 pyenv 資料夾中📁(以系統管理員的身分進入)
 
 Expand-Archive -Path "C:\Users\Tibame\Downloads\pyenv-win-3.1.1.zip" -DestinationPath "$env:USERPROFILE\pyenv"
 
